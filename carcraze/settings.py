@@ -50,7 +50,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'carzone.urls'
+ROOT_URLCONF = 'carcraze.urls'
 
 TEMPLATES = [
     {
@@ -68,7 +68,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'carzone.wsgi.application'
+WSGI_APPLICATION = 'carcraze.wsgi.application'
 
 
 # Database
